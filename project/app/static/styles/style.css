@@ -1,0 +1,24 @@
+.b1{
+    background-color: black;
+}
+.bg{
+    background-color: red;
+}
+#p1{
+    color: lime;
+    text-align: center;
+    letter-spacing: 3px;
+    font-size: 30px;
+}
+.head2{
+    text-align: center;
+    letter-spacing: 3px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: yellow;
+}
+#a1{
+    text-align: center;
+    font-weight: bold;
+    color: yellow;
+    text-align: center;
+}

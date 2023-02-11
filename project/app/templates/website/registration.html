@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration</title>
+</head>
+<body>
+    <form method="POST" action="/insert1">
+        <h1 style="text-align: center;">Registration Authentication User Table</h1>
+      {% csrf_token %}
+        <table align="center">
+          <tr>
+            <th>
+              <label id="username">Username: </label>
+            </th>
+            <td> <input type="text" name="uname">
+            </td>
+          </tr>
+          <tr>
+            <th>
+              <label id="passowrd">Password: </label>
+            </th>
+            <td>
+                <input type="password" name="password">
+            </td>
+          </tr>
+          <tr>
+            <th><label id="firstname">First Name: </label></th>
+            <td>
+                <input type="text" name="fname">
+            </td>
+          </tr>
+          <tr>
+            <th><label id="lastname">Last Name: </label></th>
+            <td>
+                <input type="text" name="lname">
+            </td>
+          </tr>
+          <tr>
+            <th><label id="email">Email: </label></th>
+            <td><input type="text" name="email"></td>
+          </tr>
+        </table>
+        <br>
+        <div align="center">
+            <input type="submit">
+        </div>
+      </form>
+</body>
+</html>
